@@ -2,7 +2,6 @@ import React from 'react';
 import Header from '../Shared/Header/Header';
 import Navbar from '../Shared/Navbar/Navbar';
 import RightSideNav from '../Shared/RightSideNav/RightSideNav';
-import { useParams } from 'react-router-dom';
 
 const News = () => {
     const { id } = useParams();
